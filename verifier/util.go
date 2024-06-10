@@ -12,7 +12,7 @@ type ExampleVerifierCircuit struct {
 	Proof                   variables.Proof                   `gnark:"-"`
 	VerifierOnlyCircuitData variables.VerifierOnlyCircuitData `gnark:"-"`
 
-	// This is configuration for the circuit, it is a constant not a variable
+	// This is the configuration for the circuit, it is a constant not a variable
 	CommonCircuitData types.CommonCircuitData
 }
 
